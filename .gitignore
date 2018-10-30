@@ -38,7 +38,10 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+<<<<<<< HEAD
 .nox/
+=======
+>>>>>>> ea06d0cacaf4030e6e4f0a38a5c4c88e2c68afe5
 .coverage
 .coverage.*
 .cache
@@ -73,10 +76,13 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+<<<<<<< HEAD
 # IPython
 profile_default/
 ipython_config.py
 
+=======
+>>>>>>> ea06d0cacaf4030e6e4f0a38a5c4c88e2c68afe5
 # pyenv
 .python-version
 
@@ -107,6 +113,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+<<<<<<< HEAD
 .dmypy.json
 dmypy.json
 
@@ -114,3 +121,5 @@ dmypy.json
 .pyre/
 
 .idea/
+=======
+>>>>>>> ea06d0cacaf4030e6e4f0a38a5c4c88e2c68afe5
