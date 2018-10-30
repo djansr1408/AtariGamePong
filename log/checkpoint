@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/srdjan1408/Documents/RL/AtariGame/log/simple_nn.ckpt"
+all_model_checkpoint_paths: "/home/srdjan1408/Documents/RL/AtariGame/log/simple_nn.ckpt"
