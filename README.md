@@ -8,7 +8,14 @@ In this project, reinforcement learning will be used for training an agent to pl
 
 # Environment
 
-Team of OpenAI researchers have developed *gym* envirnment which contains several Atari games. In this project, the focus is on the Pong game. The goal of this game is to pass the ball by the opponent by hitting it under some angle. This is presented on the Figure 1. 
+Team of OpenAI researchers have developed *gym* environment which contains several Atari games. In this project, the focus is on the Pong game. The goal of this game is to pass the ball by the opponent by hitting it under some angle. This is presented on the Figure 1. 
+
+<p align="center">
+<img style="float: center;margin:0 auto; " align="center" src="./images/hqdefault.jpg">   
+<div align="center">
+Figure 1: Pong game environment
+</div>
+</p>
 
 
 
