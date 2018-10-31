@@ -24,7 +24,7 @@ The idea behind this method is to learn approximatively optimal policy \pi. This
 <p align="center">
 <img style="float: center;margin:0 auto; " align="center" src="./images/nn.png">   
 <div align="center">
-Figure 2: Neural network simulating policy \pi
+Figure 2: Neural network simulating policy /pi
 </div>
 </p>
 
