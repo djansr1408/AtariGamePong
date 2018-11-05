@@ -19,7 +19,7 @@ Figure 1: Pong game environment
 
 # *Policy gradients* method
 
-The idea behind this method is to learn approximatively optimal policy \pi. This is done using simple neural network presented on Figure 2. The network will, based on the input, calculate probabilities for going up/down. 
+The idea behind this method is to learn approximatively optimal policy \pi. This is done using simple neural network presented on Figure 2. The network will calculate probabilities for going up/down based on the input. 
 
 <p align="center">
 <img style="float: center;margin:0 auto; " align="center" src="./images/nn.png">   
@@ -28,7 +28,9 @@ Figure 2: Neural network simulating policy /pi
 </div>
 </p>
 
-The raw input is frame of the shape 210x160x3 which will be cropped to size 80x80x3 and then converted from RGB to gray matrix of size 80x80. This final matrix will be reshaped to 6400x1 array. In order to detect movement in the game, two adjacent frames are subracted and their difference is then reshaped in a mentioned way. Hidded layer contains 200 neurons and output layer 2 neurons, so that first one gives probability of goinf up, and the second of goind down. These two probabilities are complementary (Pup = 1 - Pdown).   
+The raw input is frame of the shape 210x160x3 which will be cropped to size 80x80x3 and then converted from RGB to gray matrix of size 80x80. This final matrix will be reshaped to 6400x1 array. In order to detect movement in the game, two adjacent frames are subracted and their difference is then reshaped in a mentioned way. Hidded layer contains 200 neurons. Output layer has 2 neurons, so that first one gives probability of going up, and the second of going down. These two probabilities are complementary (Pup = 1 - Pdown). 
+
+
 
 
 
