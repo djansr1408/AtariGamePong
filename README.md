@@ -19,7 +19,7 @@ Figure 1: Pong game environment
 
 # *Policy gradients* method
 
-The idea behind this method is to learn approximatively optimal policy $$\pi$$. This is done using simple neural network presented on Figure 2. The network will calculate probabilities for going up/down based on the input. 
+The idea behind this method is to learn approximatively optimal policy $\pi. This is done using simple neural network presented on Figure 2. The network will calculate probabilities for going up/down based on the input. 
 
 <p align="center">
 <img style="float: center;margin:0 auto; " align="center" src="./images/nn.png">   
