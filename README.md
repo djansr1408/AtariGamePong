@@ -4,11 +4,12 @@ Reinforcement learning project - Training agent to play Atari game Pong in Tenso
 
 # Introduction
 
-In this project, reinforcement learning will be used for training an agent to play Pong game. For this purpose, specifically *policy gradients* method is analysed from its theoretical aspects to practical implementation. After I read Andrej Karpathy's blog, I was fascinated how simple but still effective this method could be. In his blog, Andrej expalained very briefly this approach and implemented it in Python from scratch. I wanted to do basically the same implementation, but in Tensor Flow instead. Just for the clarity, I will try to sum up the most important points about *policy gradients* and to explain environment which I used for game simulation.
+In this project game agent is trained to play Atari game Pong using ***policy gradients*** method. The whole implementation is done in TensorFlow. After reading Andrej Karpathy's blog on reinforcement learning where he explained this method in reinforcement learning and published code for training agent from scratch in Python, I wanted to implement the same thing but in Tensor Flow instead. This helped me to better understand mentioned approach and gain some intuition on how agent learns to play the game without knowing anything about environment. Also, this was a great exercise while working with ***gym*** package which simulates the environment and implementing neural network in TF.
 
 # Environment
 
-Team of OpenAI researchers have developed *gym* environment which contains several Atari games. In this project, the focus is on the Pong game. The goal of this game is to pass the ball by the opponent by hitting it under some angle. This is presented on the Figure 1. The agent may move up or down at any moment. 
+Game environment is simulated using OpenAI package ***gym*** which contains support for many Atari games. It offers graphical represantation of the game, actions which agent can execute and rewards for that actions. More about the package could be found [here](https://gym.openai.com). 
+In this project, the focus is on the Pong game. The goal of this game is to pass the ball by the opponent. This is presented on the Figure 1. The agent may move up or down at any moment. 
 
 <p align="center">
 <img style="float: center;margin:0 auto; " align="center" src="./images/hqdefault.jpg">   
