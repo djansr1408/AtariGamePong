@@ -25,7 +25,7 @@ The agent is trained till the moment when the game becomes tied and there is 50%
 <p align="center">
 <img style="float: center;margin:0 auto; " align="center" src="./pong-agent.gif">   
 <div align="center">
-Figure 2: Game simulation with trained agent
+Figure 2: Game simulation with trained agent(green)
 </div>
 </p>
 
