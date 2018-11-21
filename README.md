@@ -1,6 +1,6 @@
 ## Atari Game Pong in Tensor Flow
 
-Reinforcement learning project - Training agent to play Atari game Pong in Tensor Flow
+Deep reinforcement learning project - Training agent to play Atari game Pong in Tensor Flow
 
 ### About the project
 
