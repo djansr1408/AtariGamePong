@@ -29,5 +29,5 @@ Figure 2: Game simulation with trained agent(green)
 </div>
 </p>
 
-## Remark: This code is written just for the purpose of practice and many parts of it are taken from the internet.
+##### Remark: This code is written just for the purpose of practice and many parts of it are taken from the internet.
 
